@@ -15,8 +15,8 @@ function draw() {
   y += vy;
 
   if (x > width-25 || x < 25)
-    vx *= -1;
+    vx *= -random(0,2);
 
   if (y > height-25 || y < 25)
-    vy *= -1;
+    vy *= -random(0,2);
 }
