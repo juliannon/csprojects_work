@@ -18,13 +18,13 @@ function draw() {
   {
     vx *= -random(0.5,2);
     fill(random(255), random(255), random(255));
-    ellipse(x, y, 50, 50);
+    ellipse(x-50, y-50, 50, 50);
   }
 
   if (y > height-25 || y < 25)
   {
     vy *= -random(0.5,2);
     fill(random(255), random(255), random(255));
-    ellipse(x, y, 50, 50);
+    ellipse(x+50, y+50, 50, 50);
   }
 }
