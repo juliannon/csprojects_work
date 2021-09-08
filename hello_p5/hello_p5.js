@@ -10,13 +10,13 @@ let vy = 1;
 function draw() {
   background(0);
   fill(255, 0, 0)
-  ellipse(x, y, 100, 50);
+  ellipse(x, y, 100, 100);
   x += vx;
   y += vy;
 
   if (x > width+50 || x < 50)
     vx *= -1;
 
-  if (y > height-25 || y < 25)
+  if (y > height-50 || y < 50)
     vy *= -1;
 }
