@@ -12,7 +12,7 @@ function draw() {
   fill(255, 0, 0)
   ellipse(x, y, 100, 50);
   x += vx;
-  y += vy
+  y += vy;
 
   if (x > width+50 || x < 50)
     vx *= -1;
