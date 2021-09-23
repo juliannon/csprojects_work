@@ -63,9 +63,9 @@ class Dot
    float m = acceleration.mag();
    acceleration.mult(1/m/m/m);
    acceleration.mult(1000);
-
-   position.add(velocity);
+   
    velocity.add(acceleration);
+   position.add(velocity);
    
    //not alive when out of borders
    if(position.x>width || position.x<0 || position.y>height || position.y<0)
