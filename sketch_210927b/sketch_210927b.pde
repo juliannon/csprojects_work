@@ -2,7 +2,7 @@ int state = 0;
 
 void setup()
 {
-  FULLSCREEN();
+  fullScreen();
   
 }
 
